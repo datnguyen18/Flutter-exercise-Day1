@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
                     child: Column(
                       children: [
                         Expanded(
+                          flex: 19,
                           child: Container(
                             child: Row(
                               children: [
@@ -88,16 +89,19 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         Expanded(
+                          flex: 27,
                           child: Container(
                             color: Colors.brown,
                           ),
                         ),
                         Expanded(
+                          flex: 27,
                           child: Container(
                             color: Colors.pink,
                           ),
                         ),
                         Expanded(
+                          flex: 27,
                           child: Container(
                             color: Colors.blue,
                           ),
@@ -127,7 +131,7 @@ class MyApp extends StatelessWidget {
                 height: 150,
                 color: Colors.black12,
               ),
-              top: 350,
+              top: 335,
               left: 30,
             ),
             Positioned(
